@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li button{
+    
+    margin-left: 100px;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.body{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.body .hotel{
+    position: relative;
+    height: 350px;
+    width: 400px;
+    left: 10px;
+    top: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.body .hotel form{
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.body .hotel form .country{
+    height: 30px;
+    width: 100%;
+    display: flex;
+}
+.body .hotel form .area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.body .hotel form .area input{
+    border: none;
+    height: none;
+}
+.body .hotel form .cheak{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.body .hotel form .cheak .mid button{
+    height: auto;
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgb(139, 139, 170);
+}
+.body .hotel form .cheak input{
+    border: none;
+}
+.body .hotel form .guist{
+    display: flex;
+    flex-direction: column;
+}
+.body .hotel form .guist input{
+    border: none;
+    font-size: 20px;
+    height: 30px;
+}
+#subbtn{
+    position: relative;
+    top: 45px;
+    left: 50px;
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+    font-size: 30px;
+}
+hr{
+    width: 100%;
+    height: 1px;
+}
